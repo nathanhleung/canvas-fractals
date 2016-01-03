@@ -1,0 +1,46 @@
+doctype html
+html(lang="en")
+  head
+    title Fractals
+    meta(charset="utf-8")
+    meta(viewport="width=device-width,initial-scale=1.0")
+    meta(name="description" content="Collection of fractals in Javascript")
+    //- link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css')
+    link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css')
+  body
+    main
+      .container
+        .page-header
+          h1 Fractals
+        table.bordered
+          tr
+            th(colspan='2') Sources:
+          tr
+            td Mandelbrot Set
+            td
+              a(href='http://mathworld.wolfram.com/MandelbrotSet.html') Wolfram MathWorld
+          tr
+            td Barnsley Fern
+            td
+              a(href='https://en.wikipedia.org/wiki/Barnsley_fern') Wikipedia
+          tr
+            td Pi Digits
+            td 
+              a(href='https://helloacm.com/pi/') HelloACM.com
+        h2 Images
+        p Normal colors on the left, colors are seeded with digits of pi on the right.
+        #fractals
+    footer.page-footer.grey.lighten-1
+      .container
+        .row
+          h5.black-text Code
+          p.black-text.text-lighten-2
+            | View on #[a.grey-text.text-darken-2(href='https://github.com/nathanhleung/fractals') GitHub]
+      .footer-copyright
+        .container
+          span.black-text.
+            &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> Nathan Leung. Licensed under ISC.
+
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js")
+    script(src='main.js')
+

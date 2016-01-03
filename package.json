@@ -1,0 +1,20 @@
+{
+  "name": "fractals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "babel": "babel src --out-dir out",
+    "babel:w": "babel src --out-dir out -w",
+    "jade": "jade src --out out",
+    "jade:w": "jade src --out out -w",
+    "build": "npm run babel && npm run jade"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.3.17",
+    "babel-preset-es2015": "^6.3.13",
+    "jade": "^1.11.0"
+  }
+}
