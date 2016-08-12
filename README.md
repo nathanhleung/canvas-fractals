@@ -6,4 +6,7 @@ Experiments with fractals using the HTML5 Canvas
 * Barnsley Fern
 
 ## Demo
-[Fractals](https://xyz.nathanhleung.com/fractals/)
+[Fractals](https://xyz.nathanhleung.com/gci-fractals/)
+
+## Todo
+Make the demo site look cooler
